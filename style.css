@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(background.jpg);
+	background-size: cover;
+	background-position:center;
+	color: #fff;
+	background-attachment: fixed;
+	font-size: 20px;
+	margin-left: 45px;
+	max-width: 1920px;
+	min-width: 480px;
+}
+h1 {
+	font-size: 50px;
+	color: rgb(55, 214, 193);
+}
+.image {
+	display: inline-block;
+	text-align:center;
+	width: 290px;
+}
+figure {
+	overflow: hidden;
+	margin: 0 10px;
+}
+h3 {
+	color: rgb(111, 191, 223);
+	text-align: center;
+	height: 70%;
+	width: 70%;
+	font-weight: 100;
+	margin-top: 3px;
+}
+p {
+	padding: 10px;
+	text-align: left;
+	font-size: 20px;
+	font-style: inherit;
+	color: rgb(149, 167, 70);
+	
+}
+.image img {
+	display: block;
+	width: 100%;
+	height: auto;
+	cursor: pointer;
+}
+.image #zoom-In figure img {
+	transform: scale(1);
+	transition: 0.3s ease-in-out;
+}
+.image #zoom-In figure:hover img {
+	transform: scale(1.5);
+}
+
+
